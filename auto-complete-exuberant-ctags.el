@@ -1,21 +1,6 @@
 ;;; auto-complete-exuberant-ctags.el --- Exuberant ctags auto-complete.el source
 
-;; Filename: auto-complete-exuberant-ctags.el
-;; Description: Exuberant ctags auto-complete.el source
-;; Author: Kenichirou Oyama <k1lowxb@gmail.com>
-;; Maintainer: Kenichirou Oyama <k1lowxb@gmail.com>
-;; Copyright (C) 2011, 101000code/101000LAB, all rights reserved.
-;; Created: 2011-08-09
-;; Modified: 2011-09-08
-;; Version: 0.0.5
-;; URL:
-;; Keywords: anything, exuberant ctags
-;; Compatibility: GNU Emacs 23
-;;
-;; Features that might be required by this library:
-;;
-;; `auto-complete'
-;;
+;; Copyright (C) 2011-2014 by 101000code/101000LAB
 
 ;;; This file is NOT part of GNU Emacs
 
@@ -49,6 +34,19 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program; if not, write to the Free Software
 ;; Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+;; Filename: auto-complete-exuberant-ctags.el
+;; Description: Exuberant ctags auto-complete.el source
+;; Version: 0.0.6
+;; Author: Kenichirou Oyama <k1lowxb@gmail.com>
+;; URL: http://code.101000lab.org
+;; Keywords: anto-complete, exuberant ctags
+;; Package-Requires: ((auto-complete "1.4"))
+;;
+;; Features that might be required by this library:
+;;
+;; `auto-complete'
+;;
 
 ;;; Commentary:
 ;;
@@ -92,7 +90,6 @@
 
 ;;; Code:
 
-;;require
 (require 'auto-complete)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Customize ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -212,4 +209,4 @@ Try to find tag file in upper directory if haven't found in CURRENT-DIR."
 
 (provide 'auto-complete-exuberant-ctags)
 
-;;; Code ends
+;;; auto-complete-exuberant-ctagsel ends here
