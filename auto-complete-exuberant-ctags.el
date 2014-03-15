@@ -62,6 +62,7 @@
 ;; And the following to your ~/.emacs startup file.
 ;;
 ;; (require 'auto-complete-exuberant-ctags)
+;; (ac-exuberant-ctags-setup)
 ;;
 ;; In your project root directory, do follow command to make tags file.
 ;;
@@ -209,4 +210,4 @@ Try to find tag file in upper directory if haven't found in CURRENT-DIR."
 
 (provide 'auto-complete-exuberant-ctags)
 
-;;; auto-complete-exuberant-ctagsel ends here
+;;; auto-complete-exuberant-ctags.el ends here
