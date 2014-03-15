@@ -41,7 +41,7 @@
 ;; Author: Kenichirou Oyama <k1lowxb@gmail.com>
 ;; URL: http://code.101000lab.org
 ;; Keywords: anto-complete, exuberant ctags
-;; Package-Requires: ((auto-complete "1.4"))
+;; Package-Requires: ((auto-complete "1.4.0"))
 ;;
 ;; Features that might be required by this library:
 ;;
