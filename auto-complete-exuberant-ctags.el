@@ -37,7 +37,7 @@
 
 ;; Filename: auto-complete-exuberant-ctags.el
 ;; Description: Exuberant ctags auto-complete.el source
-;; Version: 0.0.6
+;; Version: 0.0.7
 ;; Author: Kenichirou Oyama <k1lowxb@gmail.com>
 ;; URL: http://code.101000lab.org
 ;; Keywords: anto-complete, exuberant ctags
@@ -134,7 +134,8 @@ Don't search line longer if outside this value."
   "Build index."
   (let (tag-name kind language)
     (with-temp-buffer
-      (insert-file-contents (ac-exuberant-ctags-get-tag-file))
+      (when (ac-exuberant-ctags-get-tag-file)
+        (insert-file-contents (ac-exuberant-ctags-get-tag-file)))
       (goto-char (point-min))
       (flush-lines "^ *$")
       (setq ac-exuberant-ctags-index nil)
